@@ -4,13 +4,13 @@ from twilio.rest import Client
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-twilio_sid = "ACc29cfb9acc94e19b7d7196775d863aba"
-auth_token = "403ab48cbc17de3f3a1385f1bad7e135"
+twilio_sid = "INSERT ID"
+auth_token = "INSERT KEY"
 
-stock_api_key = "IF5T75V9G1MM3M7S"
+stock_api_key = "INSERT KEY"
 stock_owm = "https://www.alphavantage.co/query"
 
-news_api_key = "262665bf2b9048a0b5a7d33f05e0af46"
+news_api_key = "INSERT KEY"
 news_owm = "https://newsapi.org/v2/everything"
 
 
