@@ -15,7 +15,7 @@ news_owm = "https://newsapi.org/v2/everything"
 
 
 
-## STEP 1: Use https://www.alphavantage.co
+
 # When STOCK price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
 stock_params = {"function": "TIME_SERIES_DAILY_ADJUSTED",
@@ -40,7 +40,7 @@ if percent_change >= 5:
 
 
 
-## STEP 2: Use https://newsapi.org
+
 # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
 # if get_news:
 
@@ -54,7 +54,7 @@ news_article = news_data["articles"][:3]
 
 
 
-## STEP 3: Use https://www.twilio.com
+
 # Send a seperate message with the percentage change and each article's title and description to your phone number.
 
 formatted_articles = [f"Headline: {article['title']}\n\nBrief: {article['description']}\n\n" for article in news_article]
